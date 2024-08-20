@@ -7928,6 +7928,11 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important; }
 
+.custom_text_center {
+  display: flex;
+  justify-content: center;
+  text-align: center !important; }
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important; }
