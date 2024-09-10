@@ -56,8 +56,22 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
+  /* color: white; */
   text-align: left;
-  background-color: #fff; }
+  /* background-color: #060505 !important; */
+  background-color: #b2a4d4;
+  background-image: url("light-theme.png") !important;
+  background-position: center;
+  background-size: cover; }
+
+.hello {
+  background-color: #5840bb;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px; }
+
+.center {
+  text-align: center; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -2033,7 +2047,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: white !important;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -2172,28 +2186,28 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107; }
+  background-color: #544bb5;
+  border-color: #544bb5; }
   .btn-warning:hover {
     color: #212529;
-    background-color: #e0a800;
-    border-color: #d39e00; }
+    background-color: black;
+    border-color: black; }
   .btn-warning:focus, .btn-warning.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5); }
+    -webkit-box-shadow: 0 0 0 0.2rem black;
+    box-shadow: 0 0 0 0.2rem black; }
   .btn-warning.disabled, .btn-warning:disabled {
     color: #212529;
-    background-color: #ffc107;
-    border-color: #ffc107; }
+    background-color: black;
+    border-color: black; }
   .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active,
   .show > .btn-warning.dropdown-toggle {
     color: #212529;
-    background-color: #d39e00;
-    border-color: #c69500; }
+    background-color: black;
+    border-color: black; }
     .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus,
     .show > .btn-warning.dropdown-toggle:focus {
-      -webkit-box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
-      box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5); }
+      -webkit-box-shadow: 0 0 0 0.2rem black;
+      box-shadow: 0 0 0 0.2rem black; }
 
 .btn-danger {
   color: #fff;
@@ -5405,7 +5419,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important; }
 
 .bg-dark {
-  background-color: #343a40 !important; }
+  background-color: #5840bb !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -8143,7 +8157,7 @@ body {
   line-height: 1.8;
   font-weight: normal;
   background: #fafafa;
-  color: gray; }
+  color: black; }
 
 a {
   -webkit-transition: .3s all ease;
@@ -8159,7 +8173,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 700;
   font-family: "Poppins", Arial, sans-serif;
   color: #000; }
 
@@ -8167,7 +8181,7 @@ h1, h2, h3, h4, h5,
   background: #ff0000 !important; }
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 3em 0; }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -8185,7 +8199,7 @@ h1, h2, h3, h4, h5,
   background-position: center center; }
 
 .ftco-navbar-light {
-  background: #252525 !important;
+  /* background: #252525 !important; */
   z-index: 3;
   padding: 0; }
   @media (max-width: 991.98px) {
@@ -8198,12 +8212,12 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 11px;
+    font-size: 12px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 20px;
     padding-right: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -8294,9 +8308,9 @@ h1, h2, h3, h4, h5,
   color: #000;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 1.2;
-  margin-bottom: 30px; }
+  margin-bottom: 10px; }
   .navbar-brand span {
     display: block;
     font-size: 12px;
@@ -8363,10 +8377,10 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 50px !important;
-  background: #fff !important;
+  background: #e5eff7 !important;
   color: #000 !important;
-  font-size: 14px;
-  border-radius: 0px;
+  font-size: 18px;
+  border-radius: 8px;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   border: 1px solid rgba(0, 0, 0, 0.1); }
